@@ -1,0 +1,18 @@
+.pricingItem {
+    border: 1px solid orange;
+    padding: 2rem 1rem;
+    
+    &__price {
+        font-size: 3rem;
+        font-weight: lighter;
+    }
+
+    &__type {
+        font-size: 2rem;
+        font-weight: lighter;
+    }
+
+    &__desc {
+
+    }
+}

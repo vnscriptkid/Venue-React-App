@@ -1,0 +1,28 @@
+.infobox {
+    border: 1px solid gainsboro;
+    padding: 4rem 2rem;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 1.5rem;
+
+    &__img {
+        width: 50%;
+        transform: rotate(-45deg);
+    }
+
+    &__img-box {
+        position: absolute;
+        width: 4rem;
+        height: 4rem;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -54%) rotate(45deg); 
+        background-color: orangered;
+    }
+
+    &__outside {
+        padding: 5px;
+        border: 1px solid gainsboro;
+    }
+}

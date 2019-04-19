@@ -1,0 +1,10 @@
+.info {
+    background-color: lighten(black, 20%);
+    padding: 6rem 0;
+    color: white;
+
+    &__container {
+        justify-content: space-around;
+    }
+
+}

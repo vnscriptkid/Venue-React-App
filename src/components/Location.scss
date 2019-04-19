@@ -1,0 +1,14 @@
+.location {
+    position: relative;
+
+    &__title {
+        padding: .5rem 2rem;
+        background-color: #2f2f2f;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 2rem;
+    }
+}

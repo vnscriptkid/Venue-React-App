@@ -1,0 +1,28 @@
+.highlights {
+    &__sales-off {
+        display: flex;
+    }
+
+    &__percent {
+        width: 30%;
+    }
+
+    &__number {
+        color: orangered;
+        font-size: 5rem;
+    }
+
+    &__under-number {
+        color: lighten(black, 10%);
+        font-size: 2.5rem;
+    }
+
+    &__info {
+        flex: 1;
+    }
+
+    &__info-title {
+        font-size: 2rem;
+        font-weight: lighter;
+    }
+}
